@@ -261,7 +261,7 @@ MonoBehaviour:
   resourceName: Apple
   amountPerCollect: 1
   usesRemaining: 1
-  promptText: Press E to interact
+  promptText: Press E to pick
   animationTrigger: PickFruit
   destroyWhenEmpty: 1
 --- !u!1 &7513603357302551873

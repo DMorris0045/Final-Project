@@ -101,7 +101,7 @@ MonoBehaviour:
   resourceName: Ore
   amountPerCollect: 1
   usesRemaining: 1
-  promptText: Press E to interact
+  promptText: Press E to gather
   animationTrigger: GatherOre
   destroyWhenEmpty: 1
 --- !u!1 &3513244448727352474

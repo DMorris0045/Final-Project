@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5984911598340929997
+--- !u!1 &6894764567499446686
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6360628377774826359}
-  - component: {fileID: 8064440990309985490}
-  - component: {fileID: 5192176564893538328}
-  - component: {fileID: 7467086672195221007}
-  - component: {fileID: 7696533465605176617}
+  - component: {fileID: 6861427166269810615}
+  - component: {fileID: 8115268543230672301}
+  - component: {fileID: 2486278056309807284}
+  - component: {fileID: 7217459360250128114}
   m_Layer: 0
-  m_Name: PT_Caesars_Mushroom_01
+  m_Name: SM_FreeTree_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6360628377774826359
+--- !u!4 &6861427166269810615
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5984911598340929997}
+  m_GameObject: {fileID: 6894764567499446686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8064440990309985490
+--- !u!33 &8115268543230672301
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5984911598340929997}
-  m_Mesh: {fileID: -1826515769343568023, guid: 2ec966d90911a454c9760fa28789a4f8, type: 3}
---- !u!23 &5192176564893538328
+  m_GameObject: {fileID: 6894764567499446686}
+  m_Mesh: {fileID: -2166821686736812689, guid: 613e548ea44686b479d19750a1a7c8f3, type: 3}
+--- !u!23 &2486278056309807284
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5984911598340929997}
+  m_GameObject: {fileID: 6894764567499446686}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -68,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c522ec7c62be0c145bc320ad11705a67, type: 2}
+  - {fileID: 2100000, guid: c5f52243f3ec2a14b8f36d413d849d0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,31 +91,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7467086672195221007
-MonoBehaviour:
+--- !u!136 &7217459360250128114
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5984911598340929997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb1b33423ccc50648bf104f1d8865df3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableResources
-  resourceName: Mushroom
-  amountPerCollect: 1
-  usesRemaining: 1
-  promptText: Press E to gather
-  animationTrigger: GatherOre
-  destroyWhenEmpty: 1
---- !u!65 &7696533465605176617
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5984911598340929997}
+  m_GameObject: {fileID: 6894764567499446686}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -128,6 +109,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.33420056, y: 0.2859373, z: 0.35413405}
-  m_Center: {x: -0.002418138, y: 0.12496347, z: 0.0038491488}
+  serializedVersion: 2
+  m_Radius: 0.21
+  m_Height: 3.5735087
+  m_Direction: 1
+  m_Center: {x: -0.07, y: 1.7867544, z: 0.06}
