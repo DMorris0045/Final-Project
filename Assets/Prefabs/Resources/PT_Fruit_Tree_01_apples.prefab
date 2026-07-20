@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1b33423ccc50648bf104f1d8865df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableResources
-  resourceName: Apple
+  item: {fileID: 11400000, guid: 4b106f0cba0b2eb41a4b89e9af75b4e7, type: 2}
   amountPerCollect: 1
   usesRemaining: 1
   promptText: Press E to pick

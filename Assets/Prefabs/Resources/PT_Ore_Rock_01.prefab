@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1b33423ccc50648bf104f1d8865df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableResources
-  resourceName: Ore
+  item: {fileID: 11400000, guid: 9054fd6748dd28a4e8f64c17155272ef, type: 2}
   amountPerCollect: 1
   usesRemaining: 1
   promptText: Press E to gather

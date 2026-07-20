@@ -7,12 +7,15 @@ public class PlayerInteraction : MonoBehaviour
 {
     public float InteractionRange = 3f;
     public TextMeshProUGUI promptText;
+    public Inventory inventory;
 
     private InteractableResources currentResource;
+    private CauldronCraftingStation currentCauldron;
+
     private Animator animator;
     private bool isInteracting;
 
-    void Start()
+    private void Start()
     {
         animator = GetComponentInChildren<Animator>();
 
@@ -22,40 +25,76 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
-        FindNearbyResource();
+        FindNearbyInteractable();
     }
 
-    private void FindNearbyResource()
+    private void FindNearbyInteractable()
     {
         Collider[] hits = Physics.OverlapSphere(transform.position, InteractionRange);
 
         InteractableResources closestResource = null;
-        float closestDistance = Mathf.Infinity;
+        CauldronCraftingStation closestCauldron = null;
+
+        float closestResourceDistance = Mathf.Infinity;
+        float closestCauldronDistance = Mathf.Infinity;
 
         foreach (Collider hit in hits)
         {
             InteractableResources resource = hit.GetComponentInParent<InteractableResources>();
 
-            if (resource == null)
+            if (resource != null)
             {
-                continue;
+                float distance = Vector3.Distance(transform.position, resource.transform.position);
+
+                if (distance < closestResourceDistance)
+                {
+                    closestResourceDistance = distance;
+                    closestResource = resource;
+                }
             }
 
-            float distance = Vector3.Distance(transform.position, resource.transform.position);
+            CauldronCraftingStation cauldron = hit.GetComponentInParent<CauldronCraftingStation>();
 
-            if (distance < closestDistance)
+            if (cauldron != null)
             {
-                closestDistance = distance;
-                closestResource = resource;
+                float distance = Vector3.Distance(transform.position, cauldron.transform.position);
+
+                if (distance < closestCauldronDistance)
+                {
+                    closestCauldronDistance = distance;
+                    closestCauldron = cauldron;
+                }
             }
         }
 
-        currentResource = closestResource;
+        if (closestCauldron != null && closestCauldronDistance <= closestResourceDistance)
+        {
+            currentCauldron = closestCauldron;
+            currentResource = null;
+        }
+        else
+        {
+            currentResource = closestResource;
+            currentCauldron = null;
+        }
 
+        UpdatePrompt();
+    }
+
+    private void UpdatePrompt()
+    {
         if (promptText == null)
         {
+            return;
+        }
+
+        if (currentCauldron != null)
+        {
+            promptText.text = currentCauldron.IsOpen ? "Press F to close crafting" : "Press F to craft";
+
+            promptText.gameObject.SetActive(true);
             return;
         }
 
@@ -63,17 +102,22 @@ public class PlayerInteraction : MonoBehaviour
         {
             promptText.text = currentResource.promptText;
             promptText.gameObject.SetActive(true);
+            return;
         }
-        else
-        {
-            promptText.gameObject.SetActive(false);
-        }
+
+        promptText.gameObject.SetActive(false);
     }
 
     public void OnInteract(InputValue value)
     {
         if (!value.isPressed)
         {
+            return;
+        }
+
+        if (currentCauldron != null)
+        {
+            currentCauldron.ToggleCraftingMenu();
             return;
         }
 
@@ -103,7 +147,7 @@ public class PlayerInteraction : MonoBehaviour
 
         if (currentResource != null)
         {
-            currentResource.Interact();
+            currentResource.Interact(inventory);
         }
 
         yield return new WaitForSeconds(0.3f);

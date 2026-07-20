@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945a7695b085e1f46831c3d7571a4369, type: 3}
+  m_Name: LanternRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: Lantern
+  ingredients:
+  - item: {fileID: 11400000, guid: ca2ac3c67e3214b489343e7d7c476d17, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 9054fd6748dd28a4e8f64c17155272ef, type: 2}
+    amount: 1
+  result: {fileID: 11400000, guid: f01ab5762a752f74a904c2f853678399, type: 2}
+  resultAmount: 1

@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class InteractableResources : MonoBehaviour
 {
-    public string resourceName = "Apple";
+    public ItemData item;
+
     public int amountPerCollect = 1;
     public int usesRemaining = 1;
 
@@ -11,23 +12,31 @@ public class InteractableResources : MonoBehaviour
 
     public bool destroyWhenEmpty = true;
 
-    private ResourceCounter resourceCounter;
+    public AudioClip woodGatherSound;
+    private bool isWood;
+    private AudioSource audioSource;
 
-    void Start()
+    private void Start()
     {
-        resourceCounter = FindFirstObjectByType<ResourceCounter>();
+        audioSource = GetComponent<AudioSource>();
+        isWood = usesRemaining == 5;
     }
 
-    public void Interact()
+    public void Interact(Inventory inventory)
     {
         if (usesRemaining <= 0)
         {
             return;
         }
 
-        if (resourceCounter != null)
+        if (isWood && woodGatherSound != null && audioSource != null)
         {
-            resourceCounter.AddResource(resourceName, amountPerCollect);
+            audioSource.PlayOneShot(woodGatherSound);
+        }
+
+        if (item != null && inventory != null)
+        {
+            inventory.AddItem(item, amountPerCollect);
         }
 
         usesRemaining--;

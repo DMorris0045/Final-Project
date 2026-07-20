@@ -8,8 +8,8 @@ public class DayNightMusic : MonoBehaviour
 
     private float fadeSpeed = 1f;
 
-    private float dayMaxVolume = 0.06f;
-    private float nightMaxVolume = 0.06f;
+    private float dayMaxVolume = 1f;
+    private float nightMaxVolume = 1f;
 
     void Start()
     {
