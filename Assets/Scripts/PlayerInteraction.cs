@@ -14,6 +14,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private Animator animator;
     private bool isInteracting;
+    private CauldronCraftingStation nearbyCauldron;
 
     private void Start()
     {
@@ -92,7 +93,7 @@ public class PlayerInteraction : MonoBehaviour
 
         if (currentCauldron != null)
         {
-            promptText.text = currentCauldron.IsOpen ? "Press F to close crafting" : "Press F to craft";
+            promptText.text = currentCauldron.IsOpen ? "Press E to close crafting" : "Press E to craft";
 
             promptText.gameObject.SetActive(true);
             return;
@@ -127,6 +128,34 @@ public class PlayerInteraction : MonoBehaviour
         }
 
         StartCoroutine(InteractRoutine());
+    }
+
+    public void OnCraft(InputValue value)
+    {
+        if (!value.isPressed)
+        {
+            return;
+        }
+
+        if (nearbyCauldron == null)
+        {
+            return;
+        }
+
+        nearbyCauldron.ToggleCraftingMenu();
+    }
+
+    public void SetNearbyCauldron(CauldronCraftingStation cauldron)
+    {
+        nearbyCauldron = cauldron;
+    }
+
+    public void ClearNearbyCauldron(CauldronCraftingStation cauldron)
+    {
+        if (nearbyCauldron == cauldron)
+        {
+            nearbyCauldron = null;
+        }
     }
 
     private IEnumerator InteractRoutine()

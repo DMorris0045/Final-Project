@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: Crate
   icon: {fileID: 21300000, guid: af91b161f106d9e46b3704f05a3ab63d, type: 3}
   maxStackSize: 3
-  itemObject: {fileID: 3054056305439575388, guid: c13fc0a81fc10bb41b47f8657ca74b74, type: 3}
+  itemObject: {fileID: 2508803079818082220, guid: 616fdaa7dbff40e4f91c695be15f9f4f, type: 3}

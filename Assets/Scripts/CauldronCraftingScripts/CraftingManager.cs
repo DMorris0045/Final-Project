@@ -14,22 +14,30 @@ public class CraftingManager : MonoBehaviour
             return;
         }
 
-        if (CanCraft(recipe))
+        if (!CanCraft(recipe))
         {
-            ConsumeIngredients(recipe);
-            inventory.AddItem(recipe.result, recipe.resultAmount);
-            CreateResult(recipe);
+            return;
         }
-        else
-        {
-            Debug.Log("Cannot craft " + recipe.recipeName + " due to missing ingredients.");
-        }
+
+        ConsumeIngredients(recipe);
+        inventory.AddItem(recipe.result, recipe.resultAmount);
+        Debug.Log("Crafted " + recipe.recipeName);
     }
 
-    private bool CanCraft(CraftingRecipe recipe)
+    public bool CanCraft(CraftingRecipe recipe)
     {
-        foreach (var ingredient in recipe.ingredients)
+        if (recipe == null || inventory == null)
         {
+            return false;
+        }
+
+        foreach (ItemAmount ingredient in recipe.ingredients)
+        {
+            if (ingredient.item == null)
+            {
+                return false;
+            }
+
             int itemCount = inventory.GetItemCount(ingredient.item);
 
             if (itemCount < ingredient.amount)
@@ -46,14 +54,6 @@ public class CraftingManager : MonoBehaviour
         foreach (var ingredient in recipe.ingredients)
         {
             inventory.RemoveItem(ingredient.item, ingredient.amount);
-        }
-    }
-
-    private void CreateResult(CraftingRecipe recipe)
-    {
-        for (int i = 0; i < recipe.resultAmount; i++)
-        {
-            inventory.AddItem(recipe.result, recipe.resultAmount);
         }
     }
 }

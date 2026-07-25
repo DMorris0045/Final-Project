@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: Lantern
   icon: {fileID: 21300000, guid: 5780c0f7daa138f46823eb60d93b7cc6, type: 3}
   maxStackSize: 5
-  itemObject: {fileID: 5775327834550999396, guid: 747b30853b8a1e74ba760cd7d466fffd, type: 3}
+  itemObject: {fileID: 155858, guid: 4c1598ecae5595b43a9d6af2b80aca62, type: 3}

@@ -12,10 +12,7 @@ GameObject:
   - component: {fileID: 6002438707828255148}
   - component: {fileID: 7666692483606920873}
   - component: {fileID: -8492011181773539241}
-  - component: {fileID: -4271339850723026901}
-  - component: {fileID: 8968629110104373140}
-  - component: {fileID: 94951239133141951}
-  - component: {fileID: 125958677966247135}
+  - component: {fileID: -8648375847307905869}
   m_Layer: 0
   m_Name: cabin_building
   m_TagString: Untagged
@@ -116,8 +113,9 @@ MonoBehaviour:
   promptText: Press E to interact
   animationTrigger: PickFruit
   destroyWhenEmpty: 1
---- !u!65 &-4271339850723026901
-BoxCollider:
+  woodGatherSound: {fileID: 0}
+--- !u!64 &-8648375847307905869
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,69 +132,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 18.12204, y: 0.8596587, z: 12.743456}
-  m_Center: {x: -0.3146267, y: -5.186221, z: -0.16813374}
---- !u!65 &8968629110104373140
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841688904573472790}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.2356315, y: 12.774667, z: 12.743456}
-  m_Center: {x: -8.257831, y: 0.7712827, z: -0.16813374}
---- !u!65 &94951239133141951
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841688904573472790}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.2804604, y: 12.774667, z: 12.743456}
-  m_Center: {x: 7.606163, y: 0.7712827, z: -0.16813374}
---- !u!65 &125958677966247135
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841688904573472790}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 18.12204, y: 12.774667, z: 2.473286}
-  m_Center: {x: -0.3146267, y: 0.7712827, z: 4.9669514}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3176091971410332313, guid: e36b4b78887a9ac40994fa6b4aa7f385, type: 3}

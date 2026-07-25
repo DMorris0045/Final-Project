@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class CauldronCraftingStation : MonoBehaviour
 {
-
-    private GameObject craftingMenu;
+    [SerializeField] private GameObject craftingMenu;
 
     public bool IsOpen => craftingMenu != null && craftingMenu.activeSelf;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         if (craftingMenu == null)
         {
@@ -16,7 +14,6 @@ public class CauldronCraftingStation : MonoBehaviour
         }
 
         craftingMenu.SetActive(false);
-        SetCursorState(false);
     }
 
     public void ToggleCraftingMenu()
@@ -29,7 +26,8 @@ public class CauldronCraftingStation : MonoBehaviour
         bool shouldOpen = !craftingMenu.activeSelf;
         craftingMenu.SetActive(shouldOpen);
 
-        SetCursorState(shouldOpen);
+        Cursor.visible = shouldOpen;
+        Cursor.lockState = shouldOpen ? CursorLockMode.None : CursorLockMode.Locked;
     }
 
     public void CloseCraftingMenu()
@@ -40,13 +38,7 @@ public class CauldronCraftingStation : MonoBehaviour
         }
 
         craftingMenu.SetActive(false);
-        SetCursorState(false);
-    }
-
-    private void SetCursorState(bool menuOpen)
-    {
-        Cursor.visible = menuOpen;
-
-        Cursor.lockState = menuOpen ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
