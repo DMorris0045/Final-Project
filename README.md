@@ -21,6 +21,7 @@ Resources:
 - https://www.gamedeveloper.com/design/how-to-create-2d-glow-effects-in-unity
 - https://stackoverflow.com/questions/49451295/audio-not-playing-in-unity
 - https://medium.com/@pkillman2000/raycast-in-unity-4c1895dc33d6
+- https://www.loekvandenouweland.com/content/stretch-unity-sprite-to-fill-the-screen.html
 
 Assets:
 - https://assetstore.unity.com/packages/2d/gui/icons/pixel-art-icon-pack-rpg-158343
