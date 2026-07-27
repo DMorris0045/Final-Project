@@ -5,10 +5,15 @@ Game concept: open world survival
 Objective: Explore the world and survive the time limit to win
 
 Controls:
+
 WASD - movement
+
 Space - jump
+
 Q - eat apples
+
 E - craft/place objects
+
 I - inventory
 
 Resources:
