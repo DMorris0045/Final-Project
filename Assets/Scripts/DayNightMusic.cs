@@ -13,6 +13,8 @@ public class DayNightMusic : MonoBehaviour
 
     void Start()
     {
+        AudioListener.pause = false;
+
         if (dayMusic != null)
         {
             dayMusic.loop = true;

@@ -4,14 +4,18 @@ public class InteractableResources : MonoBehaviour
 {
     public ItemData item;
 
+    public bool useRandomAmount;
     public int amountPerCollect = 1;
-    public int usesRemaining = 1;
+    public int minAmount = 1;
+    public int maxAmount = 3;
 
+    public int usesRemaining = 1;
     public string promptText = "Press E to interact";
     public string animationTrigger = "PickFruit";
 
     public bool destroyWhenEmpty = true;
 
+    //audio for chopping wood
     public AudioClip woodGatherSound;
     private bool isWood;
     private AudioSource audioSource;
@@ -36,7 +40,14 @@ public class InteractableResources : MonoBehaviour
 
         if (item != null && inventory != null)
         {
-            inventory.AddItem(item, amountPerCollect);
+            int collectedAmount = amountPerCollect;
+
+            if (useRandomAmount)
+            {
+                collectedAmount = Random.Range(minAmount, maxAmount + 1);
+            }
+
+            inventory.AddItem(item, collectedAmount);
         }
 
         usesRemaining--;
@@ -45,5 +56,11 @@ public class InteractableResources : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+    }
+
+    public void ResetResource(int newUsesRemaining = 1)
+    {
+        usesRemaining = newUsesRemaining;
+        gameObject.SetActive(true);
     }
 }

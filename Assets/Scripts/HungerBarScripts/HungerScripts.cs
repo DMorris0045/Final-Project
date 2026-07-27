@@ -18,13 +18,10 @@ public class HungerScripts : MonoBehaviour
     private float hungerTimer;
     private bool hasLost;
 
-    private bool _cursorLocked;
-
     private void Start()
     {
         curHunger = maxHunger;
         hungerTimer = hungerDecreaseInterval;
-        hasLost = false;
 
         if (hungerBar == null)
         {
@@ -36,7 +33,6 @@ public class HungerScripts : MonoBehaviour
             inventory = FindFirstObjectByType<Inventory>();
         }
 
-        _cursorLocked = true;
         UpdateHungerBar();
     }
 
@@ -55,7 +51,6 @@ public class HungerScripts : MonoBehaviour
             hungerTimer = hungerDecreaseInterval;
         }
 
-        // current only way to get player eat the apple
         if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
         {
             EatApple();
@@ -77,9 +72,6 @@ public class HungerScripts : MonoBehaviour
         if (curHunger <= 0)
         {
             LoseGame();
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
-            _cursorLocked = false;
         }
     }
 
@@ -95,42 +87,26 @@ public class HungerScripts : MonoBehaviour
         UpdateHungerBar();
     }
 
-    public void OnEat(InputAction.CallbackContext context)
-    {
-        if (!context.performed || hasLost)
-        {
-            return;
-        }
-
-        EatApple();
-    }
-
     public void EatApple()
     {
-        if (inventory == null)
-        {
-            return;
-        }
-
-        if (appleItem == null)
+        if (hasLost || inventory == null || appleItem == null)
         {
             return;
         }
 
         if (curHunger >= maxHunger)
         {
-            Debug.Log("You are already full.");
+            Debug.Log("You are full");
             return;
         }
 
         if (inventory.GetItemCount(appleItem) <= 0)
         {
-            Debug.Log("You do not have any apples.");
+            Debug.Log("You do not have any apples");
             return;
         }
 
-        bool appleRemoved = inventory.RemoveItem(appleItem, 1);
-        if (appleRemoved)
+        if (inventory.RemoveItem(appleItem, 1))
         {
             RestoreHunger(appleRestoreAmount);
         }
@@ -138,12 +114,10 @@ public class HungerScripts : MonoBehaviour
 
     private void LoseGame()
     {
-        if (hasLost)
-        {
-            return;
-        }
-
         hasLost = true;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
         GameUI.SetLoseResult();
         Time.timeScale = 1f;

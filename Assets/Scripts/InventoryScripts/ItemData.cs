@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ItemData : ScriptableObject
 {
-        public string itemName;
-        public Sprite icon;
-        public int maxStackSize = 5;
-        public GameObject itemObject;
+    public string itemName;
+    public Sprite icon;
+    public int maxStackSize = 5;
+    public GameObject itemObject;
+    public float placementHeightOffset =  0f;
 }

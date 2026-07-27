@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -310,6 +314,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -478,6 +486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1075643316}
   stackText: {fileID: 1627142508}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!224 &13399385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -787,6 +797,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1119,6 +1133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1345,6 +1363,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 231773429}
   stackText: {fileID: 1208340792}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &42794834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1809,6 +1829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1832884922}
   stackText: {fileID: 1138407347}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &80802086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2241,6 +2263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2285,7 +2311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112190501
@@ -2480,6 +2506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1956887444}
   stackText: {fileID: 1991974414}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &126141247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2663,6 +2691,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2911,6 +2943,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3368,6 +3404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3470,6 +3510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 454616619}
   stackText: {fileID: 225033996}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &184191208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3716,6 +3758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3785,6 +3831,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3856,6 +3906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3900,7 +3954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219279738
@@ -4161,7 +4215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225033996
@@ -4377,7 +4431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4569,6 +4623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4638,6 +4696,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4833,6 +4895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4957,6 +5023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5018,6 +5088,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5275,6 +5349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5460,7 +5538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6188,6 +6266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6374,6 +6456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6435,7 +6521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6800,7 +6886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342863437
@@ -7140,6 +7226,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7792,6 +7882,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8787,7 +8881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -8901,6 +8995,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9356,6 +9454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9524,7 +9626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515509819
@@ -9740,7 +9842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -10233,6 +10335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10613,6 +10719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10867,7 +10977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600061190
@@ -11030,6 +11140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11174,6 +11288,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11537,6 +11655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11606,6 +11728,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11854,6 +11980,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12862,6 +12992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 709092594}
   stackText: {fileID: 1127679789}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1 &709092592
 GameObject:
   m_ObjectHideFlags: 0
@@ -12913,7 +13045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13299,6 +13431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13360,6 +13496,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13430,6 +13570,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13537,7 +13681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &759004781
@@ -13824,6 +13968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14080,6 +14228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14211,6 +14363,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14467,6 +14623,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14788,7 +14948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -15075,7 +15235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &857550244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15277,6 +15437,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15596,6 +15760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15728,6 +15896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15797,6 +15969,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16045,6 +16221,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16929,6 +17109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1496245573}
   stackText: {fileID: 112190501}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &938878548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17113,6 +17295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17277,6 +17463,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 835450971}
   stackText: {fileID: 1461784556}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &945017717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17680,6 +17868,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18384,6 +18576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1702796265}
   stackText: {fileID: 515509819}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &1020332011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18559,6 +18753,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18950,6 +19148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19011,6 +19213,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19383,7 +19589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -19466,7 +19672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -19715,7 +19921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1084625037
@@ -19831,6 +20037,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20018,6 +20228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20061,6 +20275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1122516530}
   stackText: {fileID: 1079652263}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!224 &1097685379
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20171,6 +20387,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20365,7 +20585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -20415,7 +20635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127679789
@@ -20762,7 +20982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138407347
@@ -21242,6 +21462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21348,7 +21572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160778779
@@ -21862,7 +22086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208340792
@@ -22305,6 +22529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 529669968}
   stackText: {fileID: 1160778779}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &1239772309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22667,6 +22893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22860,6 +23090,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23179,6 +23413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23240,6 +23478,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23372,6 +23614,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23661,6 +23907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 268405197}
   stackText: {fileID: 219279738}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &1327353776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23837,6 +24085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23907,6 +24159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23976,6 +24232,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24506,7 +24766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24598,7 +24858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
   m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24932,6 +25192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25125,6 +25389,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25382,6 +25650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25612,7 +25884,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461784556
@@ -25774,6 +26046,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26093,6 +26369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26402,7 +26682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -26664,6 +26944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26787,7 +27071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -26987,6 +27271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27119,6 +27407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27188,6 +27480,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27259,6 +27555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27328,6 +27628,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27584,6 +27888,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28267,6 +28575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28800,6 +29112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28861,6 +29177,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28931,6 +29251,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29138,7 +29462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1634092876
@@ -29573,6 +29897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29642,6 +29970,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29766,7 +30098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -29849,6 +30181,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30106,6 +30442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30175,6 +30515,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30258,6 +30602,10 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5542111180780342642, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.2000122
@@ -30289,6 +30637,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5542111180780342642, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1695599986}
+    - targetCorrespondingSourceObject: {fileID: 5542111180780342642, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695599990}
+    - targetCorrespondingSourceObject: {fileID: 5542111180780342642, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695599989}
     - targetCorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1950932169}
@@ -30366,6 +30720,88 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695599977}
   m_Enabled: 1
+--- !u!4 &1695599988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+  m_PrefabInstance: {fileID: 1695599976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1695599989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695599977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Postprocessing.Runtime::UnityEngine.Rendering.PostProcessing.PostProcessVolume
+  sharedProfile: {fileID: 11400000, guid: f0dca5293d3330e4ca632651b34cf1b8, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &1695599990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695599977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Postprocessing.Runtime::UnityEngine.Rendering.PostProcessing.PostProcessLayer
+  volumeTrigger: {fileID: 1695599988}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &1699659075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30425,6 +30861,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30487,7 +30927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -31406,6 +31846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31599,6 +32043,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31990,6 +32438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32059,6 +32511,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32618,6 +33074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32990,6 +33450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33319,7 +33783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -33989,6 +34453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34058,6 +34526,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34443,6 +34915,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35303,6 +35779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1390888077}
   stackText: {fileID: 342863437}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1 &1921546240
 GameObject:
   m_ObjectHideFlags: 0
@@ -35395,6 +35873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1673029173}
   stackText: {fileID: 759004781}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1001 &1932480214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35454,6 +35934,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35516,6 +36000,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35859,6 +36347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35886,6 +36378,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e301c8290cc2b4cacbc970df310bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  placementDist: 3
+  placementRayHeight: 5
+  placementRayDist: 10
+  placementGroundLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   InteractionRange: 3
   promptText: {fileID: 1915524409}
   inventory: {fileID: 949813495}
@@ -36126,6 +36624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
   itemIcon: {fileID: 1513313189}
   stackText: {fileID: 600061190}
+  playerInteraction: {fileID: 1950932169}
+  inventoryUI: {fileID: 1950932170}
 --- !u!1 &1956887442
 GameObject:
   m_ObjectHideFlags: 0
@@ -36177,7 +36677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -36376,6 +36876,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36831,6 +37335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36999,7 +37507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5.8, y: 13}
+  m_AnchoredPosition: {x: -5.799999, y: 13}
   m_SizeDelta: {x: 40, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1991974414
@@ -37570,6 +38078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37739,7 +38251,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &2046361332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37773,7 +38285,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1695599982}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -38052,6 +38564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush_001
       objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38113,6 +38629,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38344,6 +38864,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38717,7 +39241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -38792,7 +39316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.15143289, g: 0.7830189, b: 0.25631785, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -39150,6 +39674,10 @@ PrefabInstance:
     - target: {fileID: 2007192654614371893, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
       propertyPath: m_Name
       value: Bush_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259560209621721165, guid: db907286f5ae1d5498c4f2ab90c984f2, type: 3}
+      propertyPath: startWithApples
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

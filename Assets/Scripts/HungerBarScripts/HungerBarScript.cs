@@ -21,6 +21,11 @@ public class HungerBarScript : MonoBehaviour
             playerHunger = FindFirstObjectByType<HungerScripts>();
         }
 
+        if (hungerBar == null || playerHunger == null)
+        {
+            return;
+        }
+
         hungerBar.minValue = 0;
         hungerBar.maxValue = playerHunger.maxHunger;
         hungerBar.value = playerHunger.curHunger;
