@@ -2,7 +2,7 @@
 
 Game title: Alchemy World\
 Game concept: open world survival\
-Objective: Explore the world and survive the time limit to win\
+Objective: Explore the world and survive the time limit to win
 
 Controls:
 
@@ -10,7 +10,7 @@ WASD - movement\
 Space - jump\
 Q - eat apples\
 E - craft/place objects\
-I - inventory\
+I - inventory
 
 Resources:
 - https://weeklyhow.com/how-to-make-a-health-bar-in-unity/
